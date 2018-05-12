@@ -2,6 +2,7 @@ package BusinessLayer;
 
 public class EventModel {
 
+    private int id;
     private String name;
     private String time;
     private String note;
@@ -12,6 +13,10 @@ public class EventModel {
         this.note = note;
     }
 
+	    public int getId() {
+        return id;
+    }
+	
     public String getName() {
         return name;
     }
