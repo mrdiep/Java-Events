@@ -13,7 +13,7 @@ public class EventModel {
         this.note = note;
     }
 
-	    public int getId() {
+	public int getId() {
         return id;
     }
 	
