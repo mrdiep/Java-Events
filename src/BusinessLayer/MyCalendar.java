@@ -18,5 +18,10 @@ public class MyCalendar {
         events.add(new EventModel(eventName, date + "  " + dateFrom + "->" + dateTo, note));
         return false;
     }
+	
+	public boolean removeEvent(int id)
+	{
+		return false;
+	}
     
 }
