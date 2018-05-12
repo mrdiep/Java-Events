@@ -2,9 +2,9 @@ package BusinessLayer;
 
 public class EventModel {
 
-    String name;
-    String time;
-    String note;
+    private String name;
+    private String time;
+    private String note;
     
     public EventModel(String name, String eventTime, String note) {
         this.name = name;
